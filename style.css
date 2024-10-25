@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F4F6;
+    margin: 0;
+}
+
+.container {
+    max-width: 24rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header, .main-events, .featured-guests {
+    padding: 1rem;
+}
+
+.header h1 {
+    color: #FB923C;
+    font-size: 1.125rem;
+}
+
+.header h2 {
+    color: #EF4444;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.header p {
+    color: #4B5563;
+    margin-top: 1rem;
+}
+
+.header p.bold {
+    font-weight: bold;
+}
+
+.main-events {
+    background-color: #1F2937;
+    color: white;
+}
+
+.main-events h3 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.main-events .event {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main-events .event i {
+    font-size: 1.5rem;
+}
+
+.main-events .event div {
+    margin-left: 1rem;
+}
+
+.main-events .event h4 {
+    font-weight: bold;
+}
+
+.main-events .event p {
+    font-size: 0.875rem;
+}
+
+.main-events .join-button {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.main-events .join-button button {
+    background-color: #EF4444;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.featured-guests h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.featured-guests .guest {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.featured-guests .guest img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+
+.featured-guests .guest div {
+    margin-left: 1rem;
+}
+
+.featured-guests .guest h4 {
+    font-weight: bold;
+}
+
+.featured-guests .guest p {
+    font-size: 0.875rem;
+    color: #4B5563;
+}
+
+.featured-guests .more-button {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.featured-guests .more-button button {
+    background-color: #D1D5DB;
+    color: #374151;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: #1F2937;
+}
